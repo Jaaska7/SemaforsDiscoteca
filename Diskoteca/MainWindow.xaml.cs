@@ -48,8 +48,6 @@ namespace Llistes
             }
         }
 
-
-
         private void BtnEliminar_Click(object sender, RoutedEventArgs e)
         {
             if (IbPrincipal.SelectedItems.Count > 0)
@@ -130,7 +128,6 @@ namespace Llistes
                 MessageBox.Show("No has seleccionat a ninguv.");
             }
         }
-
 
         private void Timer_Tick(object sender, EventArgs e)
         {
