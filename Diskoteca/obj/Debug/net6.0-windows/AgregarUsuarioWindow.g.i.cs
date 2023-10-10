@@ -69,7 +69,7 @@ namespace Diskoteca {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Diskoteca;V1.0.0.0;component/agregarusuariowindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Diskoteca;component/agregarusuariowindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AgregarUsuarioWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
